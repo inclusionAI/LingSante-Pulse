@@ -1,0 +1,51 @@
+{
+  "seed": 43,
+  "max_optimizer_steps": 6960,
+  "representation_dim": 128,
+  "corpus": {
+    "artifact": "care_cgm_private_source_public_mix_trainval_v1.npz",
+    "sha256": "52a64594f9c438a930de9247e0875903efa8cf91292a13f00b03401e95190ad2",
+    "train_windows": 7341,
+    "validation_windows": 1080,
+    "private_source_unlabeled_windows": 6138,
+    "public_unlabeled_windows": 2283,
+    "private_test_windows": 0
+  },
+  "training": {
+    "input_normalization": "window_visible_mean_std",
+    "input_decomposition_mode": "exact_cadence_range_private",
+    "bulk_reconstruction_target_mode": "exact_cadence_range",
+    "nested_loss_mode": "target_contrast",
+    "cadence_loss_mode": "bulk_range",
+    "full_scalar_head": false,
+    "full_scalar_input_mode": "reserved_signed_moments",
+    "full_scalar_view_mode": "native_only",
+    "profile_decoder_input_dim": 32,
+    "responsibility_partitioned": true,
+    "batch_size": 128,
+    "evaluation_batch_size": 256,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.001,
+    "gradient_clip_norm": 1.0,
+    "corruption_rate": 0.25,
+    "minimum_window_coverage": 0.9,
+    "minimum_local_support": 0.9,
+    "tail_lag_grid_steps": 24,
+    "rare_event_sampling_multiplier": 3.0,
+    "mechanism_probe_ridge": 1.0,
+    "history_interval_steps": 20,
+    "native_cadences": [
+      3,
+      5
+    ],
+    "mechanism_evaluation_native_cadence": 5,
+    "loss_weights": {
+      "bulk": 1.0,
+      "shape": 1.0,
+      "severity": 0.2,
+      "nested": 0.2,
+      "cadence": 0.2,
+      "scalar": 0.0
+    }
+  }
+}

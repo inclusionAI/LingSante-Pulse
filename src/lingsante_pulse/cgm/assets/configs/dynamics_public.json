@@ -1,0 +1,56 @@
+{
+  "corpus": {
+    "artifact": "research/data/processed/glucofm_pretraining_v1/glucofm_public_pretrain_subject_disjoint_v1.npz",
+    "sha256": "cd755a81f8cc3d0903e819fc26c1ac3e0e622f3f2c9620ef6f8034fd4dfbfc49",
+    "allowed_splits": [
+      0,
+      1
+    ],
+    "fit_split": 0,
+    "canary_audit_split": 1,
+    "uses_5_and_15_minute_public_windows": true,
+    "private_source_rows": 0,
+    "private_test_rows": 0
+  },
+  "representation": {
+    "physical_state_dimensions": 16,
+    "signed_dynamics_dimensions": 16,
+    "output_dimensions": 162,
+    "physical_state_parity": "time_reversal_even_by_construction",
+    "signed_dynamics_parity": "time_reversal_odd_by_construction",
+    "input_view": "exact canonical cadence-observable physical trace",
+    "task_specific_routing": false
+  },
+  "training": {
+    "seed": 43,
+    "canary_optimizer_steps": 600,
+    "full_optimizer_steps": 6960,
+    "batch_size": 128,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.001,
+    "corruption_rate": 0.25,
+    "loss_weights": {
+      "physical_denoising": 1.0,
+      "physical_state_functions": 0.2,
+      "signed_dynamics_functions": 1.0,
+      "branch_variance": 1.0,
+      "branch_covariance": 0.04
+    },
+    "hyperparameter_scan": false,
+    "checkpoint_selection": "minimum validation label-free total loss among fixed reporting intervals"
+  },
+  "canary_gates": {
+    "state_function_mean_explained_variance_min": 0.5,
+    "dynamics_function_mean_explained_variance_min": 0.35,
+    "signed_slope_explained_variance_min": 0.6,
+    "state_effective_rank_min": 4.0,
+    "dynamics_effective_rank_min": 4.0,
+    "state_reversal_even_relative_error_max": 1e-06,
+    "dynamics_reversal_odd_relative_error_max": 1e-06,
+    "first_130_base_coordinates_max_absolute_difference": 0.0,
+    "phenotype_label_reads": 0,
+    "downstream_identity_reads": 0,
+    "private_test_optimization_reads": 0,
+    "private_source_optimization_reads": 0
+  }
+}

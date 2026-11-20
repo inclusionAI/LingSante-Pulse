@@ -1,0 +1,1 @@
+"""LingSante-Pulse tests."""

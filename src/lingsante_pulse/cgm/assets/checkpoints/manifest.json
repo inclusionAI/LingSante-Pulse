@@ -1,0 +1,22 @@
+{
+  "training_data": "private and public unlabeled CGM",
+  "deployment_candidate": "lr400_aux175/replica5",
+  "files": {
+    "daily.pt": {
+      "sha256": "7b8e9b5e07a8491cfceca606d7f8afa938086872be20d02aa9e81cf474966260",
+      "bytes": 1133955
+    },
+    "dynamics.pt": {
+      "sha256": "0cb6b2822198b7f05cadea3aadfe80ad09c1c332ab5fb1a34a7968f817af768c",
+      "bytes": 255845
+    },
+    "physical_scale.npz": {
+      "sha256": "522718fe0e5906705dffc997a1ce00de4e0c096c5c8fe0b573d4c852a8d662e0",
+      "bytes": 848
+    },
+    "memory.pt": {
+      "sha256": "804db82991a1f59097cd281bd9be4578c1e4f8843c661aa6af62f23cbb102df7",
+      "bytes": 260805
+    }
+  }
+}

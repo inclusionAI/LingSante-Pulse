@@ -1,0 +1,187 @@
+{
+  "convergence_warnings": 0,
+  "fixed_released_reference": {
+    "overall": {
+      "macro_f1": 0.611397850693925,
+      "pr_auc": 0.6442896460216386,
+      "roc_auc": 0.7188904366627108
+    },
+    "tasks": {
+      "cgmacros/diabetes": {
+        "macro_f1": 0.6039991936799537,
+        "pr_auc": 0.7098450908220092,
+        "roc_auc": 0.8162304323265169
+      },
+      "cgmacros/hyperlipidemia": {
+        "macro_f1": 0.5673960783935477,
+        "pr_auc": 0.4718388794391326,
+        "roc_auc": 0.6035835424481006
+      },
+      "cgmacros/insulin_resistance": {
+        "macro_f1": 0.7823531077389296,
+        "pr_auc": 0.9270666662145617,
+        "roc_auc": 0.8712518487009885
+      },
+      "cgmacros/obesity": {
+        "macro_f1": 0.6433275232303618,
+        "pr_auc": 0.7696003673431621,
+        "roc_auc": 0.7526416652591544
+      },
+      "hall/diabetes": {
+        "macro_f1": 0.641866409930532,
+        "pr_auc": 0.6642759891165045,
+        "roc_auc": 0.7534907576419494
+      },
+      "hall/glucotype": {
+        "macro_f1": 0.862062592818193,
+        "pr_auc": 0.9236422903655428,
+        "roc_auc": 0.9434388730288973
+      },
+      "hall/hyperlipidemia": {
+        "macro_f1": 0.5157497741212425,
+        "pr_auc": 0.3704986285277431,
+        "roc_auc": 0.6517920396927224
+      },
+      "hall/insulin_resistance": {
+        "macro_f1": 0.6613229220303743,
+        "pr_auc": 0.6661540308070769,
+        "roc_auc": 0.7441563688703188
+      },
+      "shanghai_t2dm/hyperlipidemia": {
+        "macro_f1": 0.5546600797130167,
+        "pr_auc": 0.5102655569168786,
+        "roc_auc": 0.6697766242581632
+      },
+      "shanghai_t2dm/hypoglycemia": {
+        "macro_f1": 0.5000966718418188,
+        "pr_auc": 0.2940460330235167,
+        "roc_auc": 0.6642854722842216
+      },
+      "shanghai_t2dm/insulin_resistance": {
+        "macro_f1": 0.3632974681227992,
+        "pr_auc": 0.5703052456621507,
+        "roc_auc": 0.386229068354663
+      },
+      "stanford/beta_cell_dysfunction": {
+        "macro_f1": 0.5679678231296048,
+        "pr_auc": 0.6438274812540237,
+        "roc_auc": 0.6655541134069128
+      },
+      "stanford/diabetes": {
+        "macro_f1": 0.6820411968739287,
+        "pr_auc": 0.8135484768166726,
+        "roc_auc": 0.8078072301872671
+      },
+      "stanford/insulin_resistance": {
+        "macro_f1": 0.6134290680906468,
+        "pr_auc": 0.6851403079939665,
+        "roc_auc": 0.7342280768180747
+      }
+    }
+  },
+  "nested_selected": {
+    "overall": {
+      "macro_f1": 0.6056058715557964,
+      "pr_auc": 0.6375224737930232,
+      "roc_auc": 0.7112522509975473
+    },
+    "tasks": {
+      "cgmacros/diabetes": {
+        "macro_f1": 0.6052778640860373,
+        "pr_auc": 0.713569474454101,
+        "roc_auc": 0.8183673568799698
+      },
+      "cgmacros/hyperlipidemia": {
+        "macro_f1": 0.5400842225377215,
+        "pr_auc": 0.44271590838407204,
+        "roc_auc": 0.5740393149229509
+      },
+      "cgmacros/insulin_resistance": {
+        "macro_f1": 0.7838701572045474,
+        "pr_auc": 0.9244571897242796,
+        "roc_auc": 0.8685056686502313
+      },
+      "cgmacros/obesity": {
+        "macro_f1": 0.6354280243433605,
+        "pr_auc": 0.7572070089846473,
+        "roc_auc": 0.7431428491807303
+      },
+      "hall/diabetes": {
+        "macro_f1": 0.6446780720426142,
+        "pr_auc": 0.6658447342385396,
+        "roc_auc": 0.755659678833273
+      },
+      "hall/glucotype": {
+        "macro_f1": 0.8565724533376009,
+        "pr_auc": 0.919613988237965,
+        "roc_auc": 0.9394003860413797
+      },
+      "hall/hyperlipidemia": {
+        "macro_f1": 0.5085320296862441,
+        "pr_auc": 0.3510281591450545,
+        "roc_auc": 0.6290044067016403
+      },
+      "hall/insulin_resistance": {
+        "macro_f1": 0.64691144384059,
+        "pr_auc": 0.6528886689637795,
+        "roc_auc": 0.73267606437905
+      },
+      "shanghai_t2dm/hyperlipidemia": {
+        "macro_f1": 0.5402567429248152,
+        "pr_auc": 0.4844506846828031,
+        "roc_auc": 0.6467841876803546
+      },
+      "shanghai_t2dm/hypoglycemia": {
+        "macro_f1": 0.499659361361995,
+        "pr_auc": 0.295540127342005,
+        "roc_auc": 0.65558791295741
+      },
+      "shanghai_t2dm/insulin_resistance": {
+        "macro_f1": 0.36772931880798354,
+        "pr_auc": 0.5710403287278423,
+        "roc_auc": 0.38834893341444543
+      },
+      "stanford/beta_cell_dysfunction": {
+        "macro_f1": 0.5629901043277274,
+        "pr_auc": 0.6450638107324691,
+        "roc_auc": 0.662911932574412
+      },
+      "stanford/diabetes": {
+        "macro_f1": 0.6776399924410831,
+        "pr_auc": 0.8135096095174891,
+        "roc_auc": 0.8107991424377181
+      },
+      "stanford/insulin_resistance": {
+        "macro_f1": 0.6088524148388289,
+        "pr_auc": 0.6883849399672772,
+        "roc_auc": 0.7323036793120992
+      }
+    }
+  },
+  "selection_counts": {
+    "lr350_aux15/replica1": 2,
+    "lr350_aux15/replica2": 1,
+    "lr350_aux15/replica3": 2,
+    "lr350_aux15/replica4": 0,
+    "lr350_aux15/replica5": 0,
+    "lr350_aux15/replica6": 2,
+    "lr350_aux15/replica7": 1,
+    "lr350_aux15/replica8": 6,
+    "lr400_aux175/replica1": 4,
+    "lr400_aux175/replica2": 4,
+    "lr400_aux175/replica3": 0,
+    "lr400_aux175/replica4": 0,
+    "lr400_aux175/replica5": 19,
+    "lr400_aux175/replica6": 0,
+    "lr400_aux175/replica7": 0,
+    "lr400_aux175/replica8": 1,
+    "lr500_aux10/replica1": 0,
+    "lr500_aux10/replica2": 0,
+    "lr500_aux10/replica3": 0,
+    "lr500_aux10/replica4": 1,
+    "lr500_aux10/replica5": 0,
+    "lr500_aux10/replica6": 4,
+    "lr500_aux10/replica7": 3,
+    "lr500_aux10/replica8": 0
+  }
+}
