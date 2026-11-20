@@ -36,7 +36,7 @@ python -m pip install . --no-deps
 
 | 功能分支 | 获取方式 | 内容 |
 | --- | --- | --- |
-| 生理波形 | [Hugging Face：inclusionAI/LingSante-Pulse-1.0](https://huggingface.co/inclusionAI/LingSante-Pulse-1.0) | 正式编码器、配置和固定通道资产 |
+| 生理波形 | [Hugging Face：inclusionAI/LingSante-Pulse-1.0](https://huggingface.co/inclusionAI/LingSante-Pulse-1.0/) | 正式编码器、配置和固定通道资产 |
 | CGM | 仓库中的 `src/lingsante_pulse/cgm/assets/checkpoints/` | 日编码器、动态分支、多日模型和物理尺度参数 |
 
 波形编码器默认从 Hugging Face 下载并使用本地缓存，也支持加载本地模型目录。CGM 部署权重随仓库和安装包提供。

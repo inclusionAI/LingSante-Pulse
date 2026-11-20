@@ -36,7 +36,7 @@ The root `requirements.txt` covers both branches and preserves the CGM evaluatio
 
 | Branch | Source | Contents |
 | --- | --- | --- |
-| Waveforms | [Hugging Face: inclusionAI/LingSante-Pulse-1.0](https://huggingface.co/inclusionAI/LingSante-Pulse-1.0) | Official encoder, configuration, and fixed channel assets |
+| Waveforms | [Hugging Face: inclusionAI/LingSante-Pulse-1.0](https://huggingface.co/inclusionAI/LingSante-Pulse-1.0/) | Official encoder, configuration, and fixed channel assets |
 | CGM | `src/lingsante_pulse/cgm/assets/checkpoints/` | Daily encoder, dynamics branch, longitudinal model, and physical-scale parameters |
 
 The waveform encoder downloads weights from Hugging Face and uses the local cache by default. Local model directories are also supported. CGM deployment weights are included in the repository and installation package.
