@@ -1,0 +1,19 @@
+MANIFEST.in
+  s_65b5ff8a002cad::t_3d9049d980758b 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "da574c8ed198db3d2b6d206a5f602bf98069b385",
+  "prompts": {},
+  "sessions": {
+    "s_65b5ff8a002cad": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c9e0-539f-7843-ab5e-9a0e36e242d2",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "linxiao.ylx <linxiao.ylx@antgroup.com>"
+    }
+  }
+}
