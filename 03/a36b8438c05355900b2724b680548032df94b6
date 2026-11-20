@@ -1,0 +1,16 @@
+README.md
+  h_dcc7b5d715e9c6 39
+README_zh.md
+  h_dcc7b5d715e9c6 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "03a36b8438c05355900b2724b680548032df94b6",
+  "prompts": {},
+  "humans": {
+    "h_dcc7b5d715e9c6": {
+      "author": "linxiao.ylx <linxiao.ylx@antgroup.com>"
+    }
+  }
+}
